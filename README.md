@@ -18,7 +18,7 @@ This project automates the conversion of Jenkins job configurations into GitHub 
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/jenkins-to-github-actions.git
+git clone https://github.com/gabri83/jenkins-to-github-actions.git
 cd jenkins-to-github-actions
 ```
 
