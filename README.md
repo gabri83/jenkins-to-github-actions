@@ -42,7 +42,7 @@ Ensure Python is installed. No external dependencies are required since the code
 ### Step 1: Download Jenkins Configurations
 Run the script to fetch `config.xml` files for all Jenkins jobs listed in `all_jobs.xml`:
 ```bash
-python main.py
+python3 jenkins_jobs_parser.py
 ```
 This will save the `config.xml` files to the `.github/workflows` directory.
 
