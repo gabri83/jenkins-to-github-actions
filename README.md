@@ -49,7 +49,7 @@ This will save the `config.xml` files to the `.github/workflows` directory.
 ### Step 2: Generate GitHub Actions Workflows
 Parse the downloaded configurations and generate YAML workflows:
 ```bash
-python generate_workflows.py
+python3 SCM_extractor.py
 ```
 Generated workflows will be saved in the `generated_workflows` directory.
 
