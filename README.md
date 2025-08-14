@@ -3,7 +3,7 @@
 
 This project automates the conversion of Jenkins job configurations into GitHub Actions YAML workflows. It parses Jenkins `config.xml` files, extracts relevant details such as SCM configuration, build steps, and triggers, and generates corresponding GitHub Actions workflows.
 
-## Features
+## Features:
 - **Download Jenkins Job Configurations:** Fetches `config.xml` files for Jenkins jobs from a Jenkins server.
 - **Parse Jenkins Job Details:** Extracts SCM (e.g., Git URLs and branches), build steps, triggers, and post-build actions from Jenkins job configurations.
 - **Generate GitHub Actions YAML:** Converts the parsed information into GitHub Actions YAML workflows.
